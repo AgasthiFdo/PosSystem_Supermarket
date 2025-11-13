@@ -6,9 +6,9 @@
     <title>Supermarket</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="Bootstrap_Supermarket/style/Style.css">
-    <link rel="stylesheet" href="Bootstrap_Supermarket/lib/normalize.css">
-    <link rel="stylesheet" href="Bootstrap_Supermarket/lib/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="style/Style.css">
+    <link rel="stylesheet" href="lib/normalize.css">
+    <link rel="stylesheet" href="lib/fontawesome-free-6.7.2-web/css/all.min.css">
 
 </head>
 <body>
@@ -16,7 +16,7 @@
 <header>
     <nav class="navbar navbar-expand-lg p-3 mb-2 navbar-light">
         <div class="container-fluid">
-            <img src="Bootstrap_Supermarket/assests/images/AF.png" class="img-fluid" width="70">
+            <img src="assests/images/AF.png" class="img-fluid" width="70">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -112,7 +112,7 @@
                     <div class="card text-white  text-dark text-white mb-3 text-center DashCard" style="height: 300px;" >
                         <div class="card-body" >
                             <h5 class="card-title">Customers</h5>
-                            <img src="Bootstrap_Supermarket/assests/images/customers.png" class="img-fluid" width="150" height="150"></img>
+                            <img src="assests/images/customers.png" class="img-fluid" width="150" height="150"></img>
                             <p class="card-text fs-2" id="customerCount">0</p>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                     <div class="card text-white  text-dark text-white mb-3 text-center DashCard" style="height: 300px;" >
                         <div class="card-body" >
                             <h5 class="card-title">Items</h5>
-                            <img src="Bootstrap_Supermarket/assests/images/items.png" class="img-fluid" width="150" height="150"></img>
+                            <img src="assests/images/items.png" class="img-fluid" width="150" height="150"></img>
 
                             <p class="card-text fs-2" id="itemCount">0</p>
                         </div>
@@ -131,7 +131,7 @@
                     <div class="card text-white  text-dark text-white mb-3 text-center DashCard" style="height: 300px;" >
                         <div class="card-body" >
                             <h5 class="card-title">Orders</h5>
-                            <img src="Bootstrap_Supermarket/assests/images/Orders.png" class="img-fluid" width="150" height="150"></img>
+                            <img src="assests/images/Orders.png" class="img-fluid" width="150" height="150"></img>
 
                             <p class="card-text fs-2" id="orderCount">0</p>
                         </div>
@@ -499,15 +499,15 @@
     </div>
 </section>
 
-<script src="Bootstrap_Supermarket/lib/jquery-3.7.1.min.js"></script>
+<script src="lib/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script type="module" src="Bootstrap_Supermarket/controller/CustomerController.js"></script>
-<script type="module" src="Bootstrap_Supermarket/model/CustomerModel.js"></script>
-<script type="module" src="Bootstrap_Supermarket/controller/ItemController.js"></script>
-<script type="module" src="Bootstrap_Supermarket/model/ItemModel.js"></script>
-<script type="module" src="Bootstrap_Supermarket/controller/OrdersController.js"></script>
-<script type="module" src="Bootstrap_Supermarket/model/OrdersModel.js"></script>
+<script type="module" src="controller/CustomerController.js"></script>
+<script type="module" src="model/CustomerModel.js"></script>
+<script type="module" src="controller/ItemController.js"></script>
+<script type="module" src="model/ItemModel.js"></script>
+<script type="module" src="controller/OrdersController.js"></script>
+<script type="module" src="model/OrdersModel.js"></script>
 
 <script>
     $("#Dashboard-content").css("display", "block");
