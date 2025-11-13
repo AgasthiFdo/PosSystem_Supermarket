@@ -1,0 +1,76 @@
+.nav-link:hover{
+    color: #5f0d72;
+}
+#dashboard{
+    background-color: rgba(255, 255, 255, 0.57);
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: white;
+}
+.navbar{
+    background-color: deepskyblue;
+    opacity: 0.8;
+
+}
+.navbar a{
+    font-weight: bold;
+    color: blue;
+}
+
+.card{
+    background-color: deepskyblue;
+    border-radius: 10%;
+}
+.form-control, .form-select{
+    background-color: lightskyblue;
+    outline: 1px solid #111110;
+}
+h1{
+    color: blue;
+}
+#inputSearch{
+    background-color: white;
+}
+.searchBtn{
+    background-color: skyblue;
+}
+#itemSearch{
+    background-color: white;
+}
+.btnpurches{
+    outline: 2px solid #E9F5BE;
+    border-radius: 3px;
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    color: lightskyblue;
+}
+.btnpurches:hover{
+    background-color: red;
+    color: blue;
+}
+.DashCard{
+    box-shadow: dodgerblue 10px 10px 10px;
+    background-color: deepskyblue;
+}
+.input{
+    border: 5px solid deepskyblue;
+    box-shadow: dodgerblue 10px 10px 10px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 50px;
+    color: blue;
+    font-weight: bold;
+
+}
+.card-title{
+    color: blue;
+}
+p{
+    color: blue;
+}
